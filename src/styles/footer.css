@@ -1,0 +1,22 @@
+/* CSS for the Footer Component */
+
+/* Footer Styles */
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer__bottom {
+  text-align: center;
+}
+
+.section__description {
+  margin: 0;
+}
+
+.section__description i {
+  margin-right: 5px;
+}
+
+/* Add any additional styles you need here */

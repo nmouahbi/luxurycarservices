@@ -1,0 +1,100 @@
+/* CSS for the Header Component */
+
+/* Header Styles */
+.header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+.header__top {
+  background-color: #f9f9f9;
+  padding: 5px 0;
+}
+
+.header__top__right a {
+  color: #333;
+  text-decoration: none;
+}
+
+.header__top__right a i {
+  margin-right: 5px;
+}
+
+.main__navbar {
+  background-color: #f9f9f9;
+  padding: 10px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navigation__wrapper {
+  padding: 0 20px;
+}
+
+.mobile__menu {
+  cursor: pointer;
+}
+
+/* Navigation Styles */
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.slogo {
+  /* Add styles for your image here */
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.menu .nav__item {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.menu .nav__item:hover {
+  color: #007bff;
+}
+
+.menu .nav__active {
+  font-weight: bold;
+}
+
+.nav__right {
+  display: flex;
+  align-items: center;
+}
+
+.search__box {
+  position: relative;
+}
+
+.search__box input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 10px;
+}
+
+.search__box input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.search__box span {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/* Add any additional styles you need here */
